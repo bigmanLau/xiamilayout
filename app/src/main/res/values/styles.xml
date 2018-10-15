@@ -1,0 +1,225 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="QMUI.Compat">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!--复写QMUI的样式-->
+        <item name="qmui_config_color_blue">@color/base_main_color</item>
+        <item name="qmui_topbar_height">46dp</item>
+        <!--使用 API Level 22 编译的话，要拿掉前缀字-->
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <!--水平分隔线-->
+    <style name="style_divide_gray_padding_horizontal">
+        <item name="android:background">@color/base_refresh_bg_color</item>
+        <item name="android:layout_marginLeft">10px</item>
+        <item name="android:layout_marginRight">10px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <!--水平分隔线-->
+    <style name="style_divide_gray_horizontal">
+        <item name="android:background">@color/base_refresh_bg_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <!--我的菜单文本样式-->
+    <style name="style_mine_menu_text">
+        <item name="android:textColor">@color/mine_menu_text_color</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:paddingTop">13px</item>
+        <item name="android:paddingLeft">10px</item>
+        <item name="android:paddingRight">18px</item>
+        <item name="android:paddingBottom">15px</item>
+        <item name="android:drawableRight">@mipmap/base_ic_right_gray_arrow</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--个人设置的sectioin样式-->
+    <style name="style_mine_setting_section">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mine_setting_section_text_color</item>
+        <item name="android:textSize">13px</item>
+        <item name="android:layout_marginLeft">12px</item>
+        <item name="android:layout_marginTop">10px</item>
+        <item name="android:layout_marginBottom">12px</item>
+    </style>
+
+    <!--个人设置的左边文本样式-->
+    <style name="style_mine_setting_left_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mine_setting_section_text_color</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:layout_marginLeft">13px</item>
+        <item name="android:layout_marginTop">13px</item>
+        <item name="android:layout_marginBottom">13px</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--个人设置的右边文本样式-->
+    <style name="style_mine_setting_right_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mine_menu_text_color</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:layout_marginLeft">13px</item>
+        <item name="android:layout_marginTop">13px</item>
+        <item name="android:layout_marginBottom">13px</item>
+    </style>
+
+    <!--职位标签样式-->
+    <style name="style_label" parent="QMUI.Compat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/base_white</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="qmui_borderWidth">0dp</item>
+        <item name="qmui_backgroundColor">@color/mine_label_bg_color</item>
+        <item name="qmui_isRadiusAdjustBounds">true</item>
+    </style>
+
+    <!--我的菜单布局样式-->
+    <style name="style_mine_menu_linearlayout" parent="QMUI.Compat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12px</item>
+        <item name="android:layout_marginRight">12px</item>
+        <item name="android:layout_marginTop">14px</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/base_white</item>
+        <item name="qmui_borderColor">?attr/qmui_config_color_separator</item>
+        <item name="qmui_outerNormalColor">@color/base_shadow_color</item>
+        <item name="qmui_radius">8dp</item>
+        <item name="qmui_shadowAlpha">0.1</item>
+        <item name="qmui_shadowElevation">10dp</item>
+        <item name="qmui_showBorderOnlyBeforeL">true</item>
+    </style>
+
+    <!--普通线性布局-->
+    <style name="style_autoLinearlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--圆形头像-->
+    <style name="style_circle_image" parent="QMUI.Compat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="qmui_border_width">0px</item>
+        <item name="qmui_is_circle">true</item>
+    </style>
+
+    <!--topbar样式-->
+    <style name="style_topbar" parent="QMUI.Compat" >
+        <item name="android:id">@id/top_bar</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/qmui_topbar_height</item>
+        <item name="qmui_topbar_left_back_drawable_id">@mipmap/base_topbar_back</item>
+        <item name="qmui_topbar_title_color">@color/base_topbar_title_color</item>
+        <item name="qmui_topbar_title_text_size">18sp</item>
+        <item name="qmui_topbar_text_btn_text_size">16sp</item>
+        <item name="qmui_topbar_text_btn_color_state_list">@color/base_main_color</item>
+    </style>
+
+    <!--右边灰色箭头-->
+    <style name="style_right_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">14px</item>
+        <item name="android:layout_marginRight">14px</item>
+        <item name="android:src">@mipmap/base_ic_right_gray_arrow</item>
+    </style>
+
+    <!--选择图片的按钮样式-->
+    <style name="style_btn_photo" parent="QMUI.Compat">
+        <item name="qmui_borderWidth">0dp</item>
+        <item name="qmui_borderColor">@color/base_white</item>
+        <item name="qmui_backgroundColor">@color/base_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/base_topbar_title_color</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <!--选择图片的按钮样式-->
+    <style name="style_study_btn_label" parent="QMUI.Compat">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:gravity">center</item>
+            <item name="android:textSize">13sp</item>
+            <item name="android:paddingTop">3dp</item>
+            <item name="android:paddingLeft">8dp</item>
+            <item name="android:paddingRight">8dp</item>
+            <item name="android:paddingBottom">3dp</item>
+            <item name="android:layout_marginRight">15dp</item>
+            <item name="qmui_borderWidth">0dp</item>
+            <item name="qmui_radiusBottomRight">60dp</item>
+            <item name="qmui_radiusTopRight">60dp</item>
+    </style>
+
+    <!--输入框样式-->
+    <style name="style_mine_edit" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mine_menu_text_color</item>
+        <item name="android:textSize">@dimen/px_15</item>
+        <item name="android:paddingTop">@dimen/px_12</item>
+        <item name="android:paddingLeft">@dimen/px_17</item>
+        <item name="android:paddingRight">@dimen/px_17</item>
+        <item name="android:paddingBottom">@dimen/px_12</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--输入框样式-->
+    <style name="style_login_edit" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_color_333333</item>
+        <item name="android:textSize">@dimen/px_14</item>
+        <item name="android:paddingTop">@dimen/px_12</item>
+        <item name="android:paddingLeft">@dimen/px_2</item>
+        <item name="android:paddingBottom">@dimen/px_12</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="style_study_info_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/mine_setting_section_text_color</item>
+        <item name="android:textSize">@dimen/px_12</item>
+    </style>
+
+    <!--图片选择器，QQ数字风格样式，注意每一项都不能少-->
+    <style name="style_my_picture" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <!--标题栏背景色-->
+        <item name="colorPrimary">@color/base_white</item>
+        <!--状态栏背景色-->
+        <item name="colorPrimaryDark">@color/base_white</item>
+
+    </style>
+
+</resources>

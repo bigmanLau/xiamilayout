@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#4DA1FF</color>
+
+    <color name="base_white">#FFFFFF</color>
+    <color name="base_white_50">#50FFFFFF</color>
+    <color name="base_black">#000000</color>
+    <color name="base_main_color">#4DA1FF</color>
+    <color name="base_refresh_bg_color">#F3F3F3</color>
+    <color name="base_activity_bg_color">#F5F5F5</color>
+    <color name="base_refresh_text_color">#ff666666</color>
+    <color name="base_divide_color">#E5E5E5</color>
+    <color name="base_shadow_color">#4DA1FF</color>
+    <color name="base_topbar_title_color">#030303</color>
+
+    <color name="progess_webview_start_color">#d8d8d8</color>
+    <color name="progess_webview_end_color">#f3f3f3</color>
+
+    <color name="mine_menu_text_color">#444444</color>
+    <color name="mine_setting_section_text_color">#787878</color>
+    <color name="mine_label_bg_color">#1ECDC0</color>
+    <color name="mine_btn_bg_blue_color">#4894FF</color>
+    <color name="mine_btn_bg_blue_deep_color">#1B7AFF</color>
+    <color name="mine_psd_des_text_color">#B4B4B4</color>
+    <color name="mine_psd_right_text_color">#979797</color>
+
+    <color name="text_color_333333">#333333</color>
+    <color name="text_color_666666">#666666</color>
+    <color name="text_color_979797">#979797</color>
+    <color name="text_color_999999">#999999</color>
+    <color name="text_color_7C7B7B">#7C7B7B</color>
+    <color name="text_color_717171">#717171</color>
+    <color name="text_color_FF6301">#FF6301</color>
+    <color name="text_color_EF1F1F">#EF1F1F</color>
+    <color name="text_color_B8B8B8">#B8B8B8</color>
+
+    <color name="btn_bg_color_E0EFFF">#E0EFFF</color>
+    <color name="btn_bg_color_FFDEDE">#FFDEDE</color>
+    <color name="btn_bg_color_CCF5F3">#CCF5F3</color>
+    <color name="btn_text_color_E0EFFF">#4DA1FF</color>
+    <color name="btn_text_color_FFD72B2B">#FFD72B2B</color>
+    <color name="btn_text_color_0BD6CF">#0BD6CF</color>
+    <color name="seekbar_bg_color_6B6666">#6B6666</color>
+    <color name="bg_color_3695FF">#3695FF</color>
+    <color name="bg_color_848484">#848484</color>
+    <color name="bg_color_353A3E">#353A3E</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+
+</resources>

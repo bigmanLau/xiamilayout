@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jess.arms.widget.autolayout.AutoQMUILinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/style_mine_menu_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/base_white"
+    android:orientation="vertical"
+    app:qmui_radiusBottomRight="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_bottom_sheet_title_height"
+        android:background="?attr/qmui_bottom_sheet_title_bg"
+        android:ellipsize="middle"
+        android:gravity="center_vertical"
+        android:paddingLeft="?attr/qmui_bottom_sheet_list_item_padding_horizontal"
+        android:paddingRight="?attr/qmui_bottom_sheet_list_item_padding_horizontal"
+        android:singleLine="true"
+        android:textAppearance="?attr/qmui_bottom_sheet_title_appearance"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/qmui_config_color_white"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <TextView
+        android:id="@+id/bottom_sheet_close_button"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_bottom_sheet_button_height"
+        android:background="@drawable/qmui_s_list_item_bg_with_border_top"
+        android:gravity="center"
+        android:text="@string/mine_cancel"
+        android:textColor="@color/base_main_color"
+        android:textSize="17sp" />
+
+</com.jess.arms.widget.autolayout.AutoQMUILinearLayout>

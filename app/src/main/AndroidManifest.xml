@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="layout.bigman.com.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.AudioPlayActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--音频倒计时服务-->
+        <service android:name=".other.AudioTimerService"/>
+        <!-- 项目全局信息配置声明 -->
+        <meta-data
+            android:name="com.wmzx.unicorn.config.GlobalConfiguration"
+            android:value="ConfigModule" />
+
+        <!-- 配置设计图的宽高 -->
+        <meta-data
+            android:name="design_width"
+            android:value="375" />
+        <meta-data
+            android:name="design_height"
+            android:value="667" />
+    </application>
+
+</manifest>

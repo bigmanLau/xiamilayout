@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //定义id
+    <item name="sticky_content_view" type="id"/>
+    <item name="sticky_head_view" type="id"/>
+    <item name="sticky_recycler_view" type="id"/>
+</resources>
