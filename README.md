@@ -177,6 +177,7 @@ dependencies {
 具体原理看代码 
 [github地址] (https://github.com/bigmanLau/xiamilayout)
 
+>注意：三个布局的id是有要求的 ，必须和我demo中的布局一直，或者去库的ids.xml文件去看看
 
 
 
