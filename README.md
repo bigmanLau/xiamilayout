@@ -1,13 +1,10 @@
-# xiamilayout
 # Xiamilayout 
-
 #####虾米播放界面的滑动布局做的很好，故这里模仿了一个
 先看效果图吧
-
+![Gif_20181015_160653.gif](https://upload-images.jianshu.io/upload_images/12262980-ace094c07f477a0a.gif?imageMogr2/auto-orient/strip)
 
 #####具体的实现逻辑是这样的
 自定义一个ViewGroup,然后通过事件拦截和改变视图的topMargin的属性动画来实现的，具体我们分析一下核心代码
-
 >1.获取布局中初始margin边距
 ````
  //布局完毕之后获取默认参数
@@ -181,7 +178,7 @@ dependencies {
 
 
 
-       please  buy me a cup of  Cappuccino
-![weixin.png](https://upload-images.jianshu.io/upload_images/12262980-bf63eba14451d236.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+       please  buy me a cup of  Cappuccinoz![weixin.png](https://upload-images.jianshu.io/upload_images/12262980-bf63eba14451d236.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![zhifubao.jpg](https://upload-images.jianshu.io/upload_images/12262980-41391bb7afb9c1b5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
